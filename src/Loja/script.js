@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function(){
                         <img src="${produto.imagem}" class="card-img-top" alt="${produto.desc}">
                         <div class="card-body">
                             <h5 class="card-title">${produto.desc}</h5>
-                            <p class="card-text">Salário: R$${produto.sal}</p>
+                            <p class="card-text">Salário: R$${produto.preco}</p>
                             <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>

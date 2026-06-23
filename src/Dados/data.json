@@ -3,18 +3,18 @@
         "id": 1,
         "desc": "Matheus",
         "imagem": "../../public/matheus.webp",
-        "sal": 10200.55
+        "preco": 10200.55
     },
     {
         "id": 2,
         "desc": "Débora",
         "imagem": "../../public/debora.avif",
-        "sal": 45000.90
+        "preco": 45000.90
     },
     {
         "id": 3,
         "desc": "João",
         "imagem": "../../public/joao.jpg",
-        "sal": 500.00
+        "preco": 500.00
     }
 ]
