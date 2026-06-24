@@ -3,9 +3,7 @@ let produtos
 window.onload = function(){
     var storedUser = localStorage.getItem("usuario")
     var user = JSON.parse(storedUser)
-
     var dataEntrada = new Date(user.dataEntrada)
-
     var dataFormatada = dataEntrada.toLocaleString("pt-BR", {
         day: "2-digit",
         month: "2-digit",
@@ -54,4 +52,5 @@ document.addEventListener("DOMContentLoaded", function(){
         localStorage.setItem("carrinho", JSON.stringify(carrinho))
         alert("Produto adicionado com sucesso!!!")
     })
+
 })
