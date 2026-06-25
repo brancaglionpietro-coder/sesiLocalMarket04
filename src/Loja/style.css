@@ -12,6 +12,15 @@ body{
     padding: 20px;
 }
 
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+    background-color: #ff7d00;
+}
+
 .wrap{
     display: flex;
     flex-wrap: wrap;
